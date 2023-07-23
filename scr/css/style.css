@@ -1,35 +1,45 @@
 body{
     display: block;
-    
+
 }
 
 #header{
     display: flex;
-    flex-direction: row;
     position: absolute;
+    width:100%;
 }
     .logo{
         position: relative;
         top: 5rem;
         left: 5rem;
+        width: 50vw;
     }
-    .start-free{
-        position: relative;
-        top: 3rem;
-        left: 60vw;
+        .logo img{
+        width: 20vw;
+        height: 5vh;
+        }
         
+    .start-free{
+        display: flex;
+        width: 50vw;
+        height:10vh ;
+        padding-right: 1%;
+        padding-top: 2%;
+        justify-content: flex-end;
+        align-items: center;
+
     }
         .start-free button{
+            color: darkgray;
             font-family: 'Merriweather', serif;
-            letter-spacing: 2px;
             font-size: 18px;
             text-shadow: 1px -1px black;
-            width: 10vw;
-            height: 6vh;
+            letter-spacing: 2px;
+            width: 17rem;
+            height: 5rem;
             border-radius: 50px;
             border: 1px solid rgba(158, 158, 158, 0.46);
             box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.086);
-            
         }   
 
 
