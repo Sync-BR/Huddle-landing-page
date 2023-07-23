@@ -1,7 +1,6 @@
 body{
-    width: 100%;
-    height: auto;
     display: block;
+    
 }
 
 #header{
@@ -17,7 +16,8 @@ body{
     .start-free{
         position: relative;
         top: 3rem;
-        left: 100rem;
+        left: 60vw;
+        
     }
         .start-free button{
             font-family: 'Merriweather', serif;
@@ -36,21 +36,19 @@ body{
 #topo{
    display: flex;
    flex-direction: row;
-   background: url(/scr/img/bg-hero-desktop.svg) ;
+   background: url(/scr/img/bg-hero-desktop.svg)  ;
    background-size: cover;
    background-color: rgba(181, 213, 242, 0.765);
-   width: 100%;
    height: 100vh;
-   padding-left: 50px;
+   /* padding-left: 50px; */
 }
     .topo-texto{
         display: flex;
         flex-direction: column;
-        flex-wrap: wrap;
+        flex-flow: column wrap;
         align-self: center;
         align-items: center;
-        width: 30%;
-        height: min-content;
+        width: 50vw;
         padding-left:2rem ;
         margin-top: 10rem;
     }  
@@ -80,14 +78,13 @@ body{
     .topo-design{
         display: flex;
         justify-content: center;
-        width: 80%;
         margin-top: 10rem;
-
+        margin-left: 15vw;
     }
-.topo-design img{
-    width: 60%;
-    height: 100%;
-}
+    .topo-design img{
+        width: 100%;
+        height: 100%;
+    }
 
 /*  Ready To Build Your Community? */
 /* Rodape */
@@ -131,13 +128,9 @@ body{
 
 footer{
     display: flex;
-
-    width: 100vw;
     height:20vh ;
     background-color: hsl(192, 100%, 9%);
 }
-
     .rodape-img img {
-   
     width: auto;
     }
